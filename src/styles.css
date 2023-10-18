@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+
+  text-align: center;
+}
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 52px;
+  font-weight: 100;
+  padding-top: 10px;
+  color: rgba(244, 215, 24, 0.977);
+}
+h2 {
+  width: 200px;
+  font-weight: 100;
+  padding: 10px;
+  margin: 50px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+h3 {
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+.img-info {
+  width: 450px;
+  height: 200px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 500px;
+}
+.discription {
+  width: 200px;
+  text-align: left;
+}
+button {
+  font-weight: 500;
+  padding: 10px 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: yellow;
+  border: 0px;
+  margin: 20px;
+}
+button:hover {
+  background-color: rgb(231, 231, 119);
+}
+@media screen and (max-width: 1990px) {
+  .image {
+    padding: 0px 100px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .image {
+    padding: 0px 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image {
+    padding: 0px 100px;
+  }
+}
+@media screen and (max-width: 425px) {
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  .discription {
+    width: 100px;
+    text-align: left;
+  }
+  .img-info {
+    display: flex;
+    gap: 10px;
+  }
+  h3 {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+}
